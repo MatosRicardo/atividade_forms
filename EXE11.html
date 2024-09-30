@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 6</title>
+  </head>
+  <body>
+    <h1>
+      Escreva um programa em que o usuário informe 10 valores e escreva quantos
+      desses valores lidos estão entre os números 24 e 42 (incluindo os valores
+      24 e 42) e quantos deles estão fora deste intervalo.
+    </h1>
+    <script>
+      let maiores = 0;
+      let maiores1 = 0;
+
+      let num1 = Number(prompt("Digite o primeiro número: "));
+      let num2 = Number(prompt("Digite o segundo número: "));
+      let num3 = Number(prompt("Digite o terceiro número: "));
+      let num4 = Number(prompt("Digite o quarto número: "));
+      let num5 = Number(prompt("Digite o quinto número: "));
+      let num6 = Number(prompt("Digite o sexto número: "));
+      let num7 = Number(prompt("Digite o sétimo número: "));
+      let num8 = Number(prompt("Digite o oitavo número: "));
+      let num9 = Number(prompt("Digite o nono número: "));
+      let num10 = Number(prompt("Digite o décimo número: "));
+
+
+      if (num1 > 24 && num1 <= 42) {
+        maiores++;
+      } else if (num1 > 42) {
+        maiores1++;
+      } 
+      if (num2 > 24 && num2 <= 42) {
+        maiores++;
+      } else if (num2 > 42) {
+        maiores1++;
+      } 
+      if (num3 > 24 && num3 <= 42) {
+        maiores++;
+      } else if (num3 > 42) {
+        maiores1++;
+      } 
+      if (num4 > 24 && num4 <= 42) {
+        maiores++;
+      } else if (num4 > 42) {
+        maiores1++;
+      } 
+      if (num5 > 24 && num5 <= 42) {
+        maiores++;
+      } else if (num5 > 42) {
+        maiores1++;
+      } 
+      if (num6 > 24 && num7 <= 42) {
+        maiores++;
+      } else if (num6 > 42) {
+        maiores1++;
+      } 
+      if (num7 > 24 && num7 <= 42) {
+        maiores++;
+      } else if (num7 > 42) {
+        maiores1++;
+      } 
+      if (num8 > 24 && num8 <= 42) {
+        maiores++;
+      } else if (num8 > 42) {
+        maiores1++;
+      } 
+      if (num9 > 24 && num9 <= 42) {
+        maiores++;
+      } else if (num9 > 42) {
+        maiores1++;
+      } 
+      if (num10 > 24 && num10 <= 42) {
+        maiores++;
+      } else if (num10 > 42) {
+        maiores1++;
+      } 
+     
+      document.write(
+        `Quantidade de números digitados que estão entre 24 e 42: ${maiores} <br/>`
+      );
+      document.write(
+        `Quantidade de números digitados que são menores que 24 ou maiores que 42: ${maiores1} <br/>`
+      );
+    </script>
+    </script>
+  </body>
+</html>
